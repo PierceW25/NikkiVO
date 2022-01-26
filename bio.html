@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nikki Gusti Bio</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="bio.css">
+    </head>
+
+    <header>
+        <div class="header-container">
+        <div class="logo-text">
+            <img src="audio/tastemyvoiceLargeLogo.png">
+            <a href="index.html"><h2>TasteMy<span>Voice</span></h2></a>
+        </div>
+
+        <section class="p-menu1">
+            <nav id="navbar" class="navigation" role="navigation">
+              <input id="toggle1" type="checkbox" />
+              <label class="hamburger1" for="toggle1">
+                <div class="top"></div>
+                <div class="meat"></div>
+                <div class="bottom"></div>
+              </label>
+            
+              <nav class="menu1">
+                <a class="link1" href="index.html#demos">Demos</a>
+                <a class="link1" href="bio.html">Biography</a>
+                <a class="link1" href="test.html">Testimonials</a>
+              </nav>
+          </nav>
+          </section>
+        </div>
+    </header>
+
+    <body>
+        <div class="hero">
+            <img src="audio/tastemyvoiceLargeLogo.png">
+            <h1>Nikki Gusti, Voice Actor</h1>
+        </div>
+        <h1>My Story</h1>
+        <div class="top-p">
+            <p>Elle grew up in a small town, where she served tables for years before going to college. She always had an eccentric personality with a voice that greabbed
+                the attention of everyone that walked in. It took her quite some time to realize that she could use her charisma to perform, but once you hear her work, you'll
+                be blown away. Voice acting became her passion over time, as she kept working at it, she felt more and more connection to the characters she was portraying.
+            </p>
+        </div>
+            <div class="quotes">
+                <p>"A fresh female voice actor with a diverse skill set and global appeal"</p> 
+             </div>
+ 
+             <div class="quotes">
+                 <p>"VO Mid-Atlantic, North American Accent"</p>
+             </div>
+ 
+             <div class="quotes">
+                 <p>"Authentic Conversational Speaking Style"</p>
+             </div>
+             <div class="bottom-p">
+                <p>It became an outlet for her to express herself from, an outlet that started to impress even the local radio. As she prepared for her first payed voice acting gig, she realized how 
+                    naturally it always came to her, and just how comfortable she always was in front of a microphone. As soon as her voice was broadcast for the first time, everyone listening was 
+                    completely blown away. After doing small radio work for the past year, Elle is ready to bring her talent to the next level, and you could be the one to say you discovered her.
+                    Everyone that has ever worked with Elle will tell you just how great she is, not just to have on your show, but to have in you studio. Reach out today by writing a quick email in the
+                    section below!
+                </p>
+             </div>
+             <form action="https://formsubmit.co/06f0ec5064859cd9c4d407df7f428719" method="POST">
+                <input type="hidden" name="_next" value="https://piercew25.github.io//NikkiGustiVO-main/thankyou.html">
+                <h2>Contact Me!</h2>
+                <br>
+                <input type="text" id="name" name="name" placeholder="Full Name">
+                <br>
+                <input type="text" id="email" name="email" placeholder="Email">
+                <br>
+                <input type="text" id="subject" name="subject" placeholder="Subject">
+                <br>
+                <textarea id="message" name="message" placeholder="Message" rows="4" cols="0"></textarea>
+                <input type="submit" value="Send">
+            </form>
+        <script>
+            var slideIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("quotes");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none"; 
+              }
+              slideIndex++;
+              if (slideIndex > x.length) {slideIndex = 1} 
+              x[slideIndex-1].style.display = "block"; 
+              setTimeout(carousel, 4000); 
+            }
+            </script>
+    </body>
+
+    <footer>
+        <div class="footer-container">
+        <ul class="contacts">
+            <li>Phone Number: 804-539-8443</li>
+            <li>Email Address: Nikki@tastemyvoice.com</li>
+        </ul>
+        <div class="footer-picture">
+            <img src="audio/tastemyvoiceLargeLogo.png">
+        </div>
+        <ul class="socials">
+            <li><a href="https://twitter.com/Taste_My_Voices" target="_blank"><img src="https://piercew25.github.io//NikkiGustiVO-main/audio/673524.png"></a></li>
+            <li><a href="https://www.instagram.com/teqillakween/" target="_blank"><img src="https://piercew25.github.io//NikkiGustiVO-main/audio/1491579602-yumminkysocialmedia36_83067.png"></a></li>
+        </ul>
+    </div>
+    </footer>
+</html>

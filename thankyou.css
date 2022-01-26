@@ -1,0 +1,30 @@
+body {
+    background-color: #4B4453;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+.thankBox {
+    width: 50%;
+    height: 350px;
+    margin: 200px auto auto auto;
+    background-color: #8C6580;
+    text-align: center;
+    border-radius: 15px;
+}
+
+h1 {
+    padding-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    transition: .2s ease all;
+    color: white;
+} 
+
+a:hover {
+    transition: .2s ease all;
+    opacity: .8;
+}

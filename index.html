@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nikki Gusti Voice Actor</title>
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+        </head>
+        
+        <header>
+            <div class="header-container">
+            <div class="logo-text">
+                <img src="audio/tastemyvoiceLargeLogo.png">
+                <a href="index.html"><h2>TasteMy<span>Voice</span></h2></a>
+            </div>
+
+            <section class="p-menu1">
+                <nav id="navbar" class="navigation" role="navigation">
+                  <input id="toggle1" type="checkbox" />
+                  <label class="hamburger1" for="toggle1">
+                    <div class="top"></div>
+                    <div class="meat"></div>
+                    <div class="bottom"></div>
+                  </label>
+                
+                  <nav class="menu1">
+                    <a class="link1" href="#demos">Demos</a>
+                    <a class="link1" href="bio.html">Biography</a>
+                    <a class="link1" href="test.html">Testimonials</a>
+                  </nav>
+              </nav>
+              </section>
+            </div>
+        </header>
+        
+        <body>
+        <div class="hero">
+            <img src="audio/tastemyvoiceLargeLogo.png">
+            <h1  id="demos">Nikki Gusti, Voice Actor</h1>
+        </div>
+
+        <h2>Listen for the Wow!</h2>
+        <div class="audio-samples">
+            <ul>
+                <li>
+                    <p>An Engaging, Charismatic, & Soothing Voice Over Talent</p>
+                    <audio controls src="https://piercew25.github.io//NikkiGustiVO-main/audio/Nikki_Gusti_C3 (1).mp3"></audio>
+                </li>
+                <li>
+                    <p>Soothing, Conversational, and Warm </p>
+                    <audio controls src="https://piercew25.github.io//NikkiGustiVO-main/audio/Nikki_Gusti_N3.mp3"></audio>
+                </li>
+            </ul>
+        </div>
+
+        <div class="AudioPlayer"></div>
+        <script> src="customAudio.js"</script>
+
+            <div class="quotes">
+               <p>"A fresh female voice actor with a diverse skill set and global appeal"</p> 
+            </div>
+
+            <div class="quotes">
+                <p>"VO Mid-Atlantic, North American Accent"</p>
+            </div>
+
+            <div class="quotes">
+                <p>"Authentic Conversational Speaking Style"</p>
+            </div>
+            <form action="https://formsubmit.co/06f0ec5064859cd9c4d407df7f428719" method="POST">
+            <input type="hidden" name="_next" value="https://piercew25.github.io//NikkiGustiVO-main/thankyou.html">
+            <h2>Contact Me!</h2>
+            <br>
+            <input type="text" id="name" name="name" placeholder="Full Name">
+            <br>
+            <input type="text" id="email" name="email" placeholder="Email">
+            <br>
+            <input type="text" id="subject" name="subject" placeholder="Subject">
+            <br>
+            <textarea id="message" name="message" placeholder="Message" rows="4" cols="0"></textarea>
+            <input type="submit" value="Send">
+        </form>
+
+        <script>
+            var slideIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("quotes");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none"; 
+              }
+              slideIndex++;
+              if (slideIndex > x.length) {slideIndex = 1} 
+              x[slideIndex-1].style.display = "block"; 
+              setTimeout(carousel, 4000); 
+            }
+            </script>
+        </body>
+
+        <footer>
+            <div class="footer-container">
+            <ul class="contacts">
+                <li>Phone Number: 804-539-8443</li>
+                <li>Email Address: Nikki@tastemyvoice.com</li>
+            </ul>
+            <div class="footer-picture">
+                <img src="audio/tastemyvoiceLargeLogo.png">
+            </div>
+            <ul class="socials">
+                <li><a href="https://twitter.com/Taste_My_Voices" target="_blank"><img src="https://piercew25.github.io//NikkiGustiVO-main/audio/673524.png"></a></li>
+                <li><a href="https://www.instagram.com/teqillakween/" target="_blank"><img src="https://piercew25.github.io//NikkiGustiVO-main/audio/1491579602-yumminkysocialmedia36_83067.png"></a></li>
+            </ul>
+        </div>
+        </footer>
+</html>
