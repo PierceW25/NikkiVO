@@ -5,6 +5,7 @@
     padding: 0;
     font-family: Montserrat;
     color: #C77988;
+    
 }
 
 html, body {
@@ -22,14 +23,14 @@ header {
     z-index: 1;
     width: 100%;
     margin: auto;
-    height: 115px;
+    height: 100px;
     background-color: #575162;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .header-container {
     width: 60%;
-    height: 115px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -37,7 +38,7 @@ header {
 
 .logo-text {
     display: flex;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .logo-text img {
@@ -96,7 +97,7 @@ a {
   /* Hamburger */
   .hamburger1 {
     height: 45px;
-    margin-top: 45px;
+    margin-top: 35px;
     display: -ms-grid;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
@@ -137,7 +138,7 @@ a {
   }
   
   #toggle1:checked ~ .menu1 {
-    height: 240px;
+    height: 320px;
     width: 200px;
   }
   
@@ -197,17 +198,22 @@ a {
     border: 1px solid #8C6580;
 }
 
-.hero > img {
+.hero-content {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.hero img {
     width: 222px;
     height: 222px;
     align-self: center;
     border-radius: 50%;
     float: left;
-    margin-left: 33%;
 }
 
-.hero > h1 {
-    margin-right: 37%;
+.hero h1 {
     font-size: 2.5rem;
     align-self: center;
     text-align: center;
@@ -237,7 +243,7 @@ body li {
 body audio {
     margin: 30px auto 100px auto;
     width: 32%;
-    aspect-ratio: 1;
+    aspect-ratio: 1.5;
 }
 
 .quotes {
@@ -264,7 +270,7 @@ form {
     width: 60%;
     height: 700px;
     border-radius: 15px;
-    margin: 280px auto auto auto;
+    margin: 210px auto auto auto;
     color: white;
     background-color: #8C6580;
 }
@@ -432,18 +438,27 @@ footer {
         margin-right: 17%;
     }
 
+    .hero-content {
+        justify-content: space-between;
+    }
+
     body audio {
         width: 55%;
     }
   }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1150px) {
     form {
         width: 80%;
     }
 
     body audio {
         width: 50%;
+    }
+
+    .hero-content {
+        width: 60%;
+        justify-content: space-between;
     }
     }
 
