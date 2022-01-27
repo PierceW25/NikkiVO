@@ -5,7 +5,6 @@
     padding: 0;
     font-family: Montserrat;
     color: #C77988;
-    
 }
 
 html, body {
@@ -14,7 +13,6 @@ html, body {
     height: 100vh;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
 }
 header {
     position: fixed;
@@ -465,6 +463,10 @@ footer {
   @media only screen and (max-width: 550px) {
     .menu-text {
         display: none;
+    }
+
+    .quotes {
+      font-size: 25px;
     }
 
     .hamburger1 {
