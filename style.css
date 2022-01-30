@@ -22,8 +22,15 @@ header {
     width: 100%;
     margin-top: -120px;
     height: 100px;
-    background-color: #575162;
+    background-color: #272231;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+h6 {
+    margin: 50px auto auto auto;
+    font-size: 25px;
+    min-width: 70%;
+    width: 70%;
+    max-width: 90%;
 }
 
 .header-container {
@@ -220,7 +227,7 @@ a {
 }
 
 body {
-    background-color: #575162;;
+    background-color: #272231;
     overflow-x: hidden;
     overflow-y: visible;
     text-align: center;
@@ -241,13 +248,13 @@ body li {
 
 body audio {
     margin: 30px auto 100px auto;
-    width: 32%;
+    width: 19%;
     aspect-ratio: 1.5;
 }
 
 .quotes {
     margin: 30px auto auto auto;
-    background-color: #575162;
+    background-color: #272231;
     border-top: 3px solid #ffd700;
     border-bottom: 3px solid #ffd700;
     display: flex;
@@ -290,9 +297,9 @@ form h2 {
     padding: 5px;
     font-size: 22px;
     color: white;
-    border: solid 2px #575162;
+    border: solid 2px #272231;
     border-radius: 6px;
-    background-color: #575162;
+    background-color: #272231;
     display: block;
     margin: 4px auto 4px auto;
 }
@@ -442,7 +449,7 @@ footer {
     }
 
     body audio {
-        width: 55%;
+        width: 40%;
     }
   }
 
