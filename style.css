@@ -144,7 +144,7 @@ a {
   }
   
   #toggle1:checked ~ .menu1 {
-    height: 320px;
+    height: 270px;
     width: 200px;
   }
   
@@ -252,6 +252,19 @@ body audio {
     aspect-ratio: 1.5;
 }
 
+.services h3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.services li {
+  margin-bottom: 8px;
+}
+
+.services ul {
+  margin-bottom: 170px;
+}
+
 .quotes {
     margin: 30px auto auto auto;
     background-color: #272231;
@@ -333,8 +346,8 @@ input[type=submit] {
    margin: 25px auto 60px auto;
    line-height: 2px;
    overflow-x: visible;
-   border: none;
-   background-color: #00C89F;
+   border: 2px solid white;
+   background-color: transparent;
    color: white;
    border-radius: 10px;
    font-size: 1.3rem;
