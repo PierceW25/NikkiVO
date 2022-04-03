@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+  font-family: Julietta;
+  src: url("audio/Julietta.otf") format("opentype");
+}
 * {
     margin: 0;
     padding: 0;
@@ -52,7 +56,8 @@ h6 {
     height: 60px;
 }
 
-.logo-text h2 {
+.logo-text h2, span {
+    font-family: Julietta; 
     margin-top: 5px;
     font-size: 45px;
     font-weight: normal;
@@ -220,7 +225,8 @@ a {
 }
 
 .hero h1 {
-    font-size: 2.5rem;
+  font-family: Julietta;
+    font-size: 3.8rem;
     align-self: center;
     text-align: center;
     color: #ffd700;
